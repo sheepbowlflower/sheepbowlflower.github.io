@@ -61,6 +61,46 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-禁用GPU" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2020/06/02/禁用GPU/" class="article-date">
+  <time datetime="2020-06-02T09:17:53.000Z" itemprop="datePublished">2020-06-02</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2020/06/02/禁用GPU/">禁用GPU</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>背景：<br>带不动GPU只能选择CPU跑代码。</p>
+<p>环境：<br>Pycharm 2018.1.2 x64</p>
+<p>解决方法：<br>在代码开头添加代码。<br>    config = tf.ConfigProto()<br>    config.gpu_options.allow_growth = True<br>    with tf.Session(config=config) as sess:</p>
+<p>PS：租云GPU网址：极客云<a href="https://www.jikecloud.net/" target="_blank" rel="external">https://www.jikecloud.net/</a></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2020/06/02/禁用GPU/" data-id="ckaxpycnz0001gct4fzbfwr95" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
     <article id="post-Repost：批量下载爱课程资料" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2020/06/02/Repost：批量下载爱课程资料/" class="article-date">
@@ -89,7 +129,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2020/06/02/Repost：批量下载爱课程资料/" data-id="ckaxpcivc0000wgt4dwl15ozj" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2020/06/02/Repost：批量下载爱课程资料/" data-id="ckaxpyco20002gct4m257uujt" class="article-share-link">Share</a>
       
       
     </footer>
@@ -126,7 +166,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2020/05/31/Test/" data-id="ckaxpcivh0001wgt45o3mv2m5" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2020/05/31/Test/" data-id="ckaxpycnv0000gct499e7sl2z" class="article-share-link">Share</a>
       
       
     </footer>
@@ -164,6 +204,10 @@
     <h3 class="widget-title">Recent Posts</h3>
     <div class="widget">
       <ul>
+        
+          <li>
+            <a href="/2020/06/02/禁用GPU/">禁用GPU</a>
+          </li>
         
           <li>
             <a href="/2020/06/02/Repost：批量下载爱课程资料/">Repost：批量下载爱课程资料</a>
